@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keera  store </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            padding-bottom: 100px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .product {
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            max-width: 200px;
+        }
+        .product button {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+        </div>
+        <div class="container">
+            <h1>keera store</h1>
+            <div class="product">
+                <img src="pubg-pubh-playerunknown-s-battlegrounds-wallpaper-preview.jpg" alt="منتج 1">
+                <h2>60 شده ببجي</h2>
+                <p>بطاقات ببجي بطاقة بقيمة 60 شده</p>
+                <button onclick="addToCart('منتج 1')">أضف للعربة</button>
+                <a href="product3.html" style=" 
+                border-radius: 50%;
+                display: block;">click here to show details</a>
+            </div>
+            <div class="product">
+                <img src="1191937.jpg" alt="منتج 2">
+                <h2>فري فاير510 جوهرة</h2>
+                <p>بطاقات قارينا فري فاير بطاقة شحن جواهر بقيمة 510 جوهرة </p>
+                <button onclick="addToCart('منتج 2')">أضف للعربة</button>
+                <a href="product2.html" style=" 
+                border-radius: 50%;
+                display: block;">click here to show details </a>
+            </div>
+            <div class="product">
+                <img src="1191937.jpg" alt="منتج 3">
+                <h2>فري فاير 220 جوهرة </h2>
+                <p >بطاقات قارينا فري فاير بطاقة شحن جواهر بقيمة 220 جوهرة </p>
+                <button onclick="addToCart('منتج 3')">أضف للعربة</button>
+                <a href="product1.html" style=" 
+                 border-radius: 50%;
+                 display: block;
+                ">click here to show details</a>
+            </div>
+        <div class="product">
+            <img src="1191937.jpg" alt="منتج 4">
+            <h2>فري فاير 110 جوهرة </h2>
+            <p>بطاقات قارينا فري فاير بطاقة شحن جواهر بقيمه 110 جوهرة </p>
+            <button onclick="addToCart('منتج 4')">أضف للعربة</button>
+            <a href="product.html" style=" 
+            border-radius: 50%;
+            display: block;
+            "
+            >click here to show details</a>
+        </div>
+    </div>
+    <script>
+        function addToCart(productName) {
+            var whatsappNumber = "+249129046990";
+            var url = `https://wa.me/${whatsappNumber}?text=أرغب%20بشراء%20${encodeURIComponent(productName)};`
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
